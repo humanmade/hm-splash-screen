@@ -1,0 +1,58 @@
+/*
+Theme Name: HM Splash Screen
+Theme URI: https://hmn.md/
+Author: Human Made
+Author URI: https://hmn.md/
+Description: HM splash screen - Better than a default WordPress theme.
+Version: 1.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: hm
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+body, html {
+	background-color: #D8442F;
+	padding: 0px;
+	margin: 0px;
+	font-family: "futura-pt", sans-serif;
+	font-weight: 200;
+	font-size: 16px;
+	color: #FFF;
+	line-height: 1.2;
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active{
+	color: #FFF;
+}
+
+.company img {
+	width: 30%;
+	margin: 0 auto;
+	display: block;
+	position: fixed;
+	top: 50%;
+	left: 50%;
+	/* bring your own prefixes */
+	transform: translate(-50%, -50%);
+}
+
+/* Medium screens */
+@media all and (max-width: 1300px) {
+
+}
+
+@media (max-width: 950px) {
+
+}
+
+/* Small screens */
+@media all and (max-width: 700px) {
+
+}
